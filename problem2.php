@@ -4,7 +4,7 @@
   </head>
   <body>
    <?php 
-	$marks=80;
+	$marks=50;
 	if($marks>=90)
 	{
 		echo $marks . " A+";
@@ -23,7 +23,7 @@
 	}
 	else
 	{
-		echo $marks ." A";
+		echo $marks ." F";
 	}
 ?>
 

@@ -5,7 +5,7 @@
   <body>
     <?php
 	$name="raju";
-	$op="hello";
+	$op="Hello";
 	if($name=="raju" || $name=="mina" || $sname=="mithu")
 	{
 		echo "<b>$op</b>";
@@ -17,7 +17,4 @@
 ?>
   
 </body>
-
-<footer>
-</footer>
 </html>

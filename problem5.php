@@ -1,18 +1,7 @@
-<html>
-  <head>
-    <title>P1</title>
-  </head>
-  <body>
-  <?php
-$backColor="green"; $fontColor="red"; $imageWidth=80px; $imageHeight=80px;
+<<?php
+$backColor="333232"; $fontColor="F2CFCF"; $imageWidth="200px"; $imageHeight="200px";
 ?>
-<img src="aiub_logo.jpg" width="300px" height="300px" />
-<h2>American International University -<span style="background-color:yellow;color:cyan">
+<img src="aiub_logo.png" width= <?php echo  $imageWidth; ?> height=<?php echo  $imageWidth; ?> />
+<h2>American International University -<span style="background-color:<?php echo  $backColor; ?>;color:<?php echo  $fontColor; ?>">
 Bangladesh</h2>
 </span>
-
-</body>
-
-<footer>
-</footer>
-</html>
